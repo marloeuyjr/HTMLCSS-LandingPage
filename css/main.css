@@ -25,12 +25,13 @@ section {display: flex; }
 .space-between {justify-content: space-between;}
 
 /*buttons css*/
-.btn {cursor: pointer;
+.btn {
+		cursor: pointer;
 		border: 0px;
 		padding: 6px 12px;
 		border-radius: 3px;
-		line-height: 1.4;
-		}
+		line-height: 1.4px;
+	}
 .btn-default {
 		color: white;
 		background-color: #faa541;
@@ -42,11 +43,13 @@ section {display: flex; }
 }
 
 /*FORM CONTROL CSS*/
-.form-control {	display: block;
-				padding: 6px 12px;
-				border: 1px solid #a0a0a0;
-				color: #8598a2;
-				line-height: 1.4}
+.form-control {	
+			display: block;
+			padding: 6px 12px;
+			border: 1px solid #a0a0a0;
+			color: #8598a2;
+			line-height: 1.4;
+		}
 
 /*Typography CSS*/
 .text-light {
@@ -62,4 +65,84 @@ section {display: flex; }
 .text-primary {
 		font-size: 16px;
 		color: #364147;
+}
+
+/*Header*/
+.header-nav {
+		border-bottom: 1px solid #a0a0a0;
+}
+
+/*Brand*/
+
+.brand {
+		width: 170px;
+		height: 85px;
+		margin-left: -15px;
+		margin-right: 60px;
+	}
+
+/*Logo*/
+.logo { 
+		width: 170px;
+		height: 85px;
+		max-width: 100%;
+		height: auto;
+	}
+
+/*Search Box*/
+.search-box {
+		width:330px;
+		height:30px;
+		padding: 6px 12px;
+		border: 1px solid #a0a0a0;
+}
+
+/*Search Button*/
+.search-button {
+		background-color: #a0a0a0;
+		color: #ffffff;
+		width: 100px;
+		height: 30px;
+		border: 0;
+		border-style: none;
+		padding: 0;
+	}
+
+/*Nav list*/
+.nav-list {
+		padding-left: 0;
+		width: 575px;
+		margin-top: 10px;
+}
+.nav-list li a {
+		font-size: 16px;
+		font-weight: 700;
+		letter-spacing: 0.2px;
+		text-transform: uppercase;
+}
+
+/*Profile*/
+.profile {
+		margin-left: auto;
+}
+
+.account {
+		padding: 15px;
+		text-align: right;
+		color: #364147;
+		font-size: 18px;
+}
+
+.account a { 
+		font-size: 14px;
+}
+
+.profile-pic {
+		width: 60px;
+		height: 60px;
+}
+
+.profile-pic img {
+		border-radius: 100px;
+		max-width: 100%;
 }
