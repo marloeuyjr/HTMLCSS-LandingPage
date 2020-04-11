@@ -1,4 +1,4 @@
-/************* BASE STYLES *************/
+
 * { box-sizing: border-box; }
 body { font-family: 'Open Sans', sans-serif; font-size: 14px; line-height: 1.4; color: #364147; margin: 0; }
 input, button { font-family: inherit; font-size: inherit; }
@@ -9,13 +9,13 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
 
 
 
-/*container*/
+
 .container {margin: 0 auto;
 			max-width: 1170px;
 			}
 section {display: flex; }
 
-/*FLEXes css*/
+
 .flex { display: flex;}
 .flex-column {flex-direction: column;}
 .flex-one {flex: 1;}
@@ -24,7 +24,7 @@ section {display: flex; }
 .center {justify-content: center;}
 .space-between {justify-content: space-between;}
 
-/*buttons css*/
+
 .btn {
 		cursor: pointer;
 		border: 0px;
@@ -42,7 +42,7 @@ section {display: flex; }
 		background-color: #364147;
 }
 
-/*FORM CONTROL CSS*/
+
 .form-control {	
 			display: block;
 			padding: 6px 12px;
@@ -51,7 +51,7 @@ section {display: flex; }
 			line-height: 1.4;
 		}
 
-/*Typography CSS*/
+
 .text-light {
 		font-size: 30px;
 		color: #a0a0a0;
@@ -67,12 +67,11 @@ section {display: flex; }
 		color: #364147;
 }
 
-/*Header*/
+
 .header-nav {
 		border-bottom: 1px solid #a0a0a0;
 }
 
-/*Brand*/
 
 .brand {
 		width: 170px;
@@ -81,7 +80,7 @@ section {display: flex; }
 		margin-right: 60px;
 	}
 
-/*Logo*/
+
 .logo { 
 		width: 170px;
 		height: 85px;
@@ -89,7 +88,7 @@ section {display: flex; }
 		height: auto;
 	}
 
-/*Search Box*/
+
 .search-box {
 		width:330px;
 		height:30px;
@@ -97,7 +96,6 @@ section {display: flex; }
 		border: 1px solid #a0a0a0;
 }
 
-/*Search Button*/
 .search-button {
 		background-color: #a0a0a0;
 		color: #ffffff;
@@ -108,7 +106,6 @@ section {display: flex; }
 		padding: 0;
 	}
 
-/*Nav list*/
 .nav-list {
 		padding-left: 0;
 		width: 575px;
@@ -121,7 +118,7 @@ section {display: flex; }
 		text-transform: uppercase;
 }
 
-/*Profile*/
+
 .profile {
 		margin-left: auto;
 }
@@ -147,19 +144,14 @@ section {display: flex; }
 		max-width: 100%;
 }
 
-/*HERO Classes*/
-
-
-
-
-
-.hero	{
-		background-image: url("../img/hero.jpg");
+.hero {
+		background-image: url('../img/hero.jpg');
 		height: 400px;
 		background-size: cover;
-		background-position: center;
+		background-position: center center;
 		text-transform: uppercase;
 }
+
 .hero h1 {
 		position: relative;
 		left:-30px;
@@ -182,7 +174,7 @@ section {display: flex; }
 		margin: 0px 0px 10px;
 }
 
-/*Banner Classes*/
+
 
 .banner {
 		margin: 55px 15px;
@@ -210,7 +202,7 @@ section {display: flex; }
 		margin-top: 5px;
 }
 
-/*Category Classes*/
+
 
 .category {
 		flex: 0 0 25%;
@@ -239,3 +231,4 @@ section {display: flex; }
 		font-weight: 700;
 		line-height: 1;
 }
+
