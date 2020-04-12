@@ -27,18 +27,18 @@ section {display: flex; }
 
 .btn {
 		cursor: pointer;
-		border: 0px;
+		border: 0;
 		padding: 6px 12px;
 		border-radius: 3px;
-		line-height: 1.4px;
+		line-height: 1.4;
 	}
 .btn-default {
-		color: white;
+		color: #ffffff;
 		background-color: #faa541;
 }
 
 .btn-primary {
-		color: white;
+		color: #ffffff;
 		background-color: #364147;
 }
 
@@ -82,8 +82,6 @@ section {display: flex; }
 
 
 .logo { 
-		width: 170px;
-		height: 85px;
 		max-width: 100%;
 		height: auto;
 	}
@@ -102,7 +100,6 @@ section {display: flex; }
 		width: 100px;
 		height: 30px;
 		border: 0;
-		border-style: none;
 		padding: 0;
 	}
 
@@ -234,7 +231,7 @@ section {display: flex; }
 
 .full-banner {
 		padding: 0 15px;
-		margin: 50px 0;
+		margin: 50px 0px;
 		position: relative;
 }
 
@@ -301,3 +298,4 @@ section {display: flex; }
 		letter-spacing: 1px;
 		z-index: 1;
 }
+
